@@ -27,7 +27,7 @@ def create_submission_file(submission_rows, unique_id=None, output_dir=".", inte
     """
     pattern = r"^AR\d{5}$"
 
-    if unique_id is not None:
+    if unique_id is None:
         unique_id = str(uuid.uuid4())
 
     if interactive:
