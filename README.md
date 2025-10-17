@@ -1,6 +1,7 @@
-# DeepLearningCompetition_submission-tool
+# dlcsubmissiontool
 for DeepLearningCompetition
 
+**D**eep**L**earning**C**ompetition_**submissiontool**：<br>
 このリポジトリは，講義「深層学習」内で実施するコンペティションを実施するにあたり，<br>
 推論結果を集めた提出用のCSVファイルを生成する関数をライブラリとして提供するためのものです．
 ```
