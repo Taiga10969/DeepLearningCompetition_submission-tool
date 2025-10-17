@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "submission-tool"
+version = "0.1.0"
+description = "A simple tool for creating standardized student submission CSV files"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [{ name = "Taiga Masuda" }]
+dependencies = []
