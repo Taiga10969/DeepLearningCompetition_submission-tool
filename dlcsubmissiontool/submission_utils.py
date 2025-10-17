@@ -1,8 +1,9 @@
 import re
 import csv
 from pathlib import Path
+import uuid
 
-def create_submission_file(submission_rows, unique_id, output_dir=".", interactive=True, student_id=None):
+def create_submission_file(submission_rows, unique_id=None, output_dir=".", interactive=True, student_id=None):
     """
     学生番号を入力して形式を確認し、提出用CSVファイルを生成する関数。
 
@@ -25,6 +26,9 @@ def create_submission_file(submission_rows, unique_id, output_dir=".", interacti
         作成されたファイルのパス。
     """
     pattern = r"^AR\d{5}$"
+
+    if unique_id is not None:
+        unique_id = str(uuid.uuid4())
 
     if interactive:
         while True:
