@@ -13,4 +13,5 @@ for DeepLearningCompetition
 from dlcsubmissiontool import create_submission_file
 ```
 
-※DLC：**D**eep**L**earning**C**ompetitionのプロジェクトページは[こちら](https://github.com/Taiga10969/DeepLearningCompetition)です．
+※DLC：**D**eep**L**earning**C**ompetitionのプロジェクトページは[こちら](https://github.com/Taiga10969/DeepLearningCompetition)です．<br>
+※本プロジェクトは，特定の大学の講義用に設計されたものになります．汎用的なツールではありません．
